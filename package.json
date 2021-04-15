@@ -1,5 +1,5 @@
 {
-  "name": "burger-logger",
+  "name": "burger-log",
   "version": "1.0.0",
   "description": "A web application that tracks types of burgers and whether or not they have been devoured.",
   "main": "server.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/malenchite/burger-logger.git"
+    "url": "git+https://github.com/tarekbe55/burger-log.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/malenchite/burger-logger/issues"
+    "url": "https://github.com/tarekbe55/burger-logger/issues"
   },
-  "homepage": "https://github.com/malenchite/burger-logger#readme",
+  "homepage": "https://github.com/tarekbe55/burger-log#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.2.1",
