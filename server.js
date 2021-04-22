@@ -4,7 +4,7 @@ const hbs = require("express-handlebars");
 const burgers_controller = require("./controllers/burgers_controller");
 
 const app = express();
-const PORT = process.env.PORT || 3306;
+const PORT = process.env.PORT || 8080;
 
 /* Decoding middleware */
 app.use(express.urlencoded({ extended: true }));
