@@ -1,9 +1,9 @@
 const mysql = require("mysql");
 
-var connInfo;
+let connInfo;
 
-if (process.env.DATABASE_URL) {
-  connInfo = process.env.DATABASE_URL;
+if (process.env.JAWSDB_URL) {
+  connInfo = process.env.JAWSDB_URL;
 } else {
   connInfo = {
     host: process.env.DB_HOST,
