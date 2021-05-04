@@ -1,11 +1,11 @@
 const mysql = require("mysql");
 
-let connInfo;
+let connectiom;
 
 if (process.env.JAWSDB_URL) {
-  connInfo = process.env.JAWSDB_URL;
+  connection = process.env.JAWSDB_URL;
 } else {
-  connInfo = {
+  connection = {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
     password: process.env.DB_PWD,
